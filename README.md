@@ -155,7 +155,3 @@ This is a personal demo project created independently to explore observability a
 All components are self-contained and use simulated behavior.
 
 ---
-
-```
-
-```
