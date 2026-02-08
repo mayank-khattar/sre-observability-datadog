@@ -140,16 +140,19 @@ High-level steps:
 3. Generate traffic to `/health` and `/work`
 4. Observe metrics, traces, and alerts in Datadog
 
-To generate simulated traffic following commands can be used in bash
+To generate simulated traffic, the following commands can be used:
 
-> while true; do curl http://localhost:5000/work; sleep 1; done
-> while true; do curl http://localhost:5000/health; sleep 1; done
+```bash
+while true; do curl http://localhost:5000/work; sleep 1; done
+while true; do curl http://localhost:5000/health; sleep 1; done
+
 
 ---
 
 ## Notes
 
-This is a personal demo project created independently to explore observability and alerting concepts.  
+This is a personal demo project created independently to explore observability and alerting concepts.
 All components are self-contained and use simulated behavior.
 
 ---
+```
